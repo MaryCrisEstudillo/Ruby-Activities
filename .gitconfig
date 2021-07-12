@@ -1,0 +1,14 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = MaryCrisEstudillo
+	email = estudillomarycris@gmail.com
+[gui]
+	recentrepo = C:/Users/Ryzen 3/emcie
+[color]
+	ui = true
+[core]
+	editor = emacs
