@@ -1,8 +1,8 @@
 def list names
     strNames = names.map { |name| name[:name] }
-    last = strNames.pop
+    lastName = strNames.pop
     return "" if strNames == []
-    "#{strNames.join(', ')} & #{last}"
+    "#{strNames.join(', ')} & #{lastName}"
  end
 
  puts list ([{name:"Bart"},{name:"Lisa"},{name:"Maggie"}])
